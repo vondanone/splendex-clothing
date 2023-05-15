@@ -4,7 +4,17 @@
   display: flex;
   justify-content: space-between;
   margin-bottom: 25px;
-  background-color: blueviolet;
+  border-bottom-style: solid;
+  border-bottom-color: rgba(92, 9, 121, 1);
+
+  background: rgb(92, 9, 121);
+  background: linear-gradient(
+    90deg,
+    rgba(92, 9, 121, 1) 0%,
+    rgba(92, 9, 96, 1) 25%,
+    rgba(255, 255, 242, 1) 75%,
+    rgba(255, 255, 255, 1) 100%
+  );
 
   .logo-container {
     height: 100%;
@@ -22,7 +32,6 @@
     .nav-link {
       padding: 10px 15px;
       cursor: pointer;
-      color: white;
     }
   }
 }
